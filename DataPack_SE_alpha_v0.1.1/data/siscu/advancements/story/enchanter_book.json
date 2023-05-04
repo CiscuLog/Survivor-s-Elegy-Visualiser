@@ -1,0 +1,25 @@
+{
+	"display":{
+		"icon": {
+			"item": "minecraft:jigsaw"
+		},
+		"title": {"text": "Enchanters Guide","font":"minecraft:alt"},
+		"description": "Contains ancient glyphs to enchant items",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"parent": "siscu:story/outpost",
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"items": ["jigsaw"]
+				}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:carrot_on_a_stick",
+			"functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:548101}"
+			},
+			{
+				"function": "minecraft:set_name",
+				"name": {
+					"translate": "item.siscu.copper_helmet",
+					"italic": false
+				}
+			},
+			{
+				"function": "minecraft:set_lore",
+				"lore": [
+				{
+					"text": "Press ",
+					"italic": false,
+					"color": "gray",
+					"extra": [
+					{
+						"keybind": "key.use"
+					},
+					{
+						"text": " to equip"
+					}
+					]
+				}
+				]
+			},
+			{
+				"function": "minecraft:set_attributes",
+				"modifiers": [
+				{
+					"attribute": "generic.armor",
+					"name": "generic.armor",
+					"operation": "addition",
+					"amount": 2,
+					"slot": "head"
+				}
+				]
+			}
+			]
+		}
+		]
+	}
+	]
+}

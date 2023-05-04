@@ -1,0 +1,1 @@
+schedule function siscu:tick_1s 1s

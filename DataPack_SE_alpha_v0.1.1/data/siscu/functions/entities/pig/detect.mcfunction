@@ -1,0 +1,1 @@
+execute as @e[type=pig,predicate=siscu:random/pig_bred,tag=!pig_checked] run function siscu:entities/pig/breed

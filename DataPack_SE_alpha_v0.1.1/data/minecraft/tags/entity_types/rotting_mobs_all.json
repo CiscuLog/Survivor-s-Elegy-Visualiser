@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:rotting_mobs",
+    "minecraft:zombie_villager",
+    "minecraft:zombie_horse",
+    "minecraft:zoglin"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"tag": "siscu:iron_tools",
+					"nbt": "{CustomModelData:548101}"
+				}
+			}
+		},
+		"1": {
+			"trigger":"minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"tag": "siscu:iron_tools",
+					"nbt": "{CustomModelData:548102}"
+				}
+			}
+		},
+		"2": {
+			"trigger":"minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"tag": "siscu:iron_tools",
+					"nbt": "{CustomModelData:548103}"
+				}
+			}
+		}
+	},
+	"requirements": [["0","1","2"]],
+	"rewards": {
+		"function": "siscu:items/use/oxidisation_chance"
+	}
+}

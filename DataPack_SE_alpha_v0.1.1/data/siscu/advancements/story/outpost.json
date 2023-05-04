@@ -1,0 +1,21 @@
+{
+	"display":{
+		"icon": {
+			"item": "minecraft:cobblestone"
+		},
+		"title": "Pillager Outpost",
+		"description": "Illager settlements",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"parent": "siscu:story/outpost_compass",
+	"criteria": {
+		"0": {
+			"trigger":"minecraft:location",
+			"conditions": {
+				"location": {"feature":"pillager_outpost"}
+			}
+		}
+	}
+}

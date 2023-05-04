@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+  {
+	  "rolls": 1,
+	  "entries": [
+	  {
+		  "type": "minecraft:loot_table",
+		  "name": "siscu:items/misc/patrol_leader_map"
+	  }
+	  ],
+	  "conditions": [
+	  {
+		  "condition": "minecraft:entity_properties",
+		  "entity": "this",
+		  "predicate": {
+			  "nbt":"{Tags:[\"patrol_leader\"]}"
+			}
+	  },
+	  {
+		  "condition": "minecraft:location_check",
+		  "predicate": {
+			  "dimension": "minecraft:overworld"
+		  }
+	  }
+	  ]
+  }
+  ]
+}

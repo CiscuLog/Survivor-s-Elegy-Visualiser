@@ -1,0 +1,1 @@
+data merge entity @s {ItemRotation: 0b}

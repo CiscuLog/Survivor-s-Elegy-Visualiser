@@ -1,0 +1,4 @@
+
+Survivor's Elegy Alpha v0.1.1 (29/01/2022)
+- Swamp Huts now generate correctly
+- Corrected missing names

@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+		  "conditions": [{
+			  "condition": "minecraft:reference",
+			  "name": "siscu:gameplay/fishing/cod_biomes"
+		  }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+		  "conditions": [{
+			  "condition": "minecraft:reference",
+			  "name": "siscu:gameplay/fishing/salmon_biomes"
+		  }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "weight": 2,
+		  "conditions": [{
+			  "condition": "minecraft:reference",
+			  "name": "siscu:gameplay/fishing/tropical_fish_biomes"
+		  }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish",
+		  "conditions": [{
+			  "condition": "minecraft:reference",
+			  "name": "siscu:gameplay/fishing/pufferfish_biomes"
+		  }]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "siscu:items/food/frog",
+		  "conditions": [{
+			  "condition": "minecraft:reference",
+			  "name": "siscu:gameplay/fishing/frog_biomes"
+		  }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball",
+		  "conditions": [{
+			  "condition": "minecraft:reference",
+			  "name": "siscu:gameplay/fishing/frog_biomes"
+		  }]
+        }
+      ]
+    }
+  ]
+}
