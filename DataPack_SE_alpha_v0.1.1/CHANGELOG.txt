@@ -1,4 +1,10 @@
 
+Survivor's Elegy Alpha v0.2.1 (02/02/2022)
+- Changed siscu:world/breach spawn so at first login the time will advance to the morning of the same day instead of day 0
+- Changed pillager loot: outpost compass only drops when killed by a player
+- Fixed error in metamorphic caves biome
+- Optimised siscu:world/day_features/day_set_morning
+
 Survivor's Elegy Alpha v0.2.0 (01/02/2022)
 - Added Daytime extender module
         - Added function siscu:config for basic daytime features config

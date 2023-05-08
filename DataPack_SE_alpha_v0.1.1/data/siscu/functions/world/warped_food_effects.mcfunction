@@ -6,7 +6,7 @@ execute if score @s warped_food matches 60.. run scoreboard players set @s warpe
 
 execute if score @s warped_food matches 20..25 run effect give @s minecraft:nausea 6 1 true
 execute if score @s warped_food matches 25..30 run effect give @s minecraft:nausea 8 1 true
-execute if score @s warped_food matches 30..35 run effect give @s minecraft:nausea 16 1 true
+execute if score @s warped_food matches 30..39 run effect give @s minecraft:nausea 16 1 true
 execute if score @s warped_food matches 40.. run effect give @s minecraft:nausea 32 1 true
 
 execute if score @s warped_food matches 30.. run effect give @s minecraft:weakness 16 0 true

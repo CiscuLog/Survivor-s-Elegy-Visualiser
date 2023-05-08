@@ -4,6 +4,6 @@ execute at @s run playsound minecraft:entity.enderman.teleport ambient @a ~ ~ ~ 
 tag @s add breach_spawned
 
 #First Day Check
-execute unless data storage siscu:world {FirstLogin:1} run time set 23500
+execute unless data storage siscu:world {FirstLogin:1} run function siscu:world/day_features/day_set_morning
 execute unless data storage siscu:world {FirstLogin:1} run data modify storage siscu:world FirstLogin set value 1
 function siscu:world/day_features/start_day
