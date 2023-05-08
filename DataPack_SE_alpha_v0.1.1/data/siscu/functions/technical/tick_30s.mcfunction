@@ -6,4 +6,4 @@ execute as @e[type=marker,tag=fire_spring] at @s run function siscu:entities/bla
 ## Worldgen processors ##
 execute if entity @e[tag=swamp_hut_stuff] run function siscu:world/swamp_hut/swamp_starters
 
-function siscu:tick_30s_schedule
+function siscu:technical/tick_30s_schedule

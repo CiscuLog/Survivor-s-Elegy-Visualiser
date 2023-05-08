@@ -1,1 +1,0 @@
-schedule function siscu:tick_2s 2s

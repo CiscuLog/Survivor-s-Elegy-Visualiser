@@ -24,7 +24,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "siscu:items/weapons/ravager_horn"
+          "name": "siscu:items/misc/ravager_horn"
         }
       ],
           "conditions": [

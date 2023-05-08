@@ -9,7 +9,7 @@
 		"announce_to_chat": false,
 		"hidden": true
 	},
-	"parent": "siscu:story/zombie_villagers",
+	"parent": "siscu:story/zombie_villagers_rotting",
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:player_generates_container_loot",

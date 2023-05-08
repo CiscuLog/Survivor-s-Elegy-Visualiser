@@ -4,7 +4,7 @@ tag @s add skeleton_checked
 
 # Run the randomiser
 
-execute if predicate siscu:utils/75_percent if predicate siscu:utils/check_the_nether run tag @s add piglin
+execute at @s if predicate siscu:utils/75_percent if predicate siscu:utils/check_the_nether run tag @s add piglin
 loot replace entity @s[tag=piglin] weapon loot siscu:groups/piglin_weapons
 loot replace entity @s[tag=piglin] weapon.offhand loot siscu:groups/piglin_shields
 loot replace entity @s[tag=piglin] armor.head loot siscu:groups/skeleton_heads_piglin
@@ -12,7 +12,7 @@ loot replace entity @s[tag=piglin] armor.chest loot siscu:groups/piglin_chestpla
 loot replace entity @s[tag=piglin] armor.legs loot siscu:groups/piglin_leggings
 loot replace entity @s[tag=piglin] armor.feet loot siscu:groups/piglin_boots
 
-execute if predicate siscu:utils/5_percent if predicate siscu:utils/check_overworld run tag @s add villager
+execute at @s if predicate siscu:utils/5_percent if predicate siscu:utils/check_overworld run tag @s add villager
 loot replace entity @s[tag=villager] weapon loot siscu:groups/villager_skeleton_weapons
 loot replace entity @s[tag=villager] armor.head loot siscu:groups/villager_skeleton_heads_natural
 

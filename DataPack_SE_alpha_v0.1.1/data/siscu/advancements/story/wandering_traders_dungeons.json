@@ -1,16 +1,15 @@
 {
 	"display":{
 		"icon": {
-			"item": "minecraft:leather",
-			"nbt": "{CustomModelData:548104}"
+			"item": "minecraft:green_banner"
 		},
-		"title": "Wandering Traders",
-		"description": "Nomad travellers with goods to sell",
-		"show_toast": true,
+		"title": "Dungeon Traders",
+		"description": "Nomad warriors with exotic gear",
+		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": true
 	},
-	"parent": "siscu:story/villagers",
+	"parent": "siscu:story/wandering_traders",
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:tick",
@@ -23,7 +22,8 @@
 						"player": {
 							"looking_at": {
 								"distance": {"absolute": {"min":1,"max":4}},
-								"type": "minecraft:wandering_trader"
+								"type": "minecraft:wandering_trader",
+								"nbt": "{Tags:[\"dungeons_trader\"]}"
 							}
 						}
 					}
@@ -31,5 +31,8 @@
 			]
 			}
 		}
+	},
+	"rewards": {
+		"function": "siscu:advancement/clear_connections_schedule"
 	}
 }

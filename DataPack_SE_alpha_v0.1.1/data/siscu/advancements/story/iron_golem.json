@@ -10,7 +10,7 @@
 		"announce_to_chat": false,
 		"hidden": true
 	},
-	"parent": "siscu:story/villagers_emerald_order",
+	"parent": "siscu:story/villages",
 	"criteria": {
 		"0": {
 			"trigger":"minecraft:tick",

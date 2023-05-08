@@ -4,4 +4,4 @@ execute as @a[tag=!breach_spawned] run function siscu:world/breach_spawn
 execute as @e[tag=zombifying] at @s run function siscu:entities/zombifying/clock
 
 
-function siscu:tick_1s_schedule
+function siscu:technical/tick_1s_schedule

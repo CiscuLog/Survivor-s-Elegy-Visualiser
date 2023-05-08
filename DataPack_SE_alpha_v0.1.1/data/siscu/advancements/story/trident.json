@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:trident"
 		},
-		"title": "Trident",
+		"title": "Trident ",
 		"description": "An upgraded lightning rod, manmade to better suit coastal environments",
 		"show_toast": true,
 		"announce_to_chat": false,

@@ -38,4 +38,5 @@ execute if block ~1 ~ ~2 #minecraft:cauldrons run setblock ~-2 ~ ~1 structure_bl
 execute if block ~1 ~ ~2 #minecraft:cauldrons run setblock ~-2 ~1 ~1 air
 execute if block ~1 ~ ~2 #minecraft:cauldrons run summon falling_block ~-2 ~1.5 ~1 {BlockState:{Name:"minecraft:redstone_block"},Time:-100}
 
+weather rain
 schedule function siscu:world/swamp_hut/swamp_starters 5s

@@ -5,7 +5,7 @@
 			"nbt": "{LodestoneDimension:\"minecraft:overworld\",LodestoneTracked: 0b,CustomModelData:548101}"
 		},
 		"title": {"translate": "item.siscu.patrol_compass","font":"minecraft:illageralt"},
-		"description": "A compass that's not pointing at spawn",
+		"description": "Where's this compass pointing at?",
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

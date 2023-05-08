@@ -38,6 +38,6 @@
 	},
 	"requirements": [["0","1"]],
 	"rewards": {
-		"function": "siscu:items/use/carrot_on_a_stick_use"
+		"function": "siscu:items/use/carrot_on_a_stick_hold"
 	}
 }

@@ -1,6 +1,8 @@
 {
+	"entity.siscu.dungeon_trader": "Dungeon Trader",
 	"item.siscu.battle_staff": "Combat Stick",
 	"item.siscu.battle_staff_bamboo": "Combat Bamboo Stick",
+	"item.siscu.boneclub":"Boneclub",
 	"item.siscu.copper_axe": "Copper Axe",
 	"item.siscu.copper_helmet": "Copper Helmet",
 	"item.siscu.copper_hoe": "Copper Hoe",
@@ -34,7 +36,7 @@
 	"item.siscu.piglin_head": "Piglin Head",
 	"item.siscu.piglin_shield": "Piglin Shield",
 	"item.siscu.piglin_shield": "Piglin Shield",
-	"item.siscu.pillager_outpost_map": "Outpost Map",
+	"item.siscu.pillager_outpost_map": "Nearest Village",
 	"item.siscu.potion_book": "Sorcerers Grimoir",
 	"item.siscu.ravager_horn": "Ravager Horn",
 	"item.siscu.suspicious_stew_book": "Apothecaries Guide",
@@ -63,5 +65,6 @@
 	"text.siscu.potion_book_author":"The Gifted",
 	"text.siscu.suspicious_stew_book_author":"Calendula",
 	"text.siscu.wax_horse_armor": "Protects Zombie Horses from Rotting",
-	"text.siscu.wax_horse_armor2": "Must be equipped before zombification"
+	"text.siscu.wax_horse_armor2": "Must be equipped before zombification",
+	"title.siscu.day": "Day "
 }

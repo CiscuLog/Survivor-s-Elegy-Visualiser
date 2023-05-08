@@ -1,0 +1,2 @@
+
+tellraw @s [{"translate":"\n\n\n\n%=====Survivor's Elegy Configuration Panel=====%\n","bold":"true","color":"gold"},{"text":"- Daytime Extender Module\n","bold":"false","color":"green","clickEvent":{"action":"run_command","value":"/function siscu:daytime_extender"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to change"}}},{"text":"- Sleep Module\n","bold":"false","color":"green","clickEvent":{"action":"run_command","value":"/function siscu:sleep_config"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to change"}}}]

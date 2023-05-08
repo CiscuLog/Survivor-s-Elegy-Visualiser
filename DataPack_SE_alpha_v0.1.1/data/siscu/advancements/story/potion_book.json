@@ -5,7 +5,7 @@
 			"nbt": "{CustomModelData:548102}"
 		},
 		"title": {"text":"Sorcerers Grimoir","font":"minecraft:illageralt"},
-		"description": "Contains all essential potion knowledge",
+		"description": "Contains all essential brewing knowledge",
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

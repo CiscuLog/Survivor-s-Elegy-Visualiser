@@ -1,1 +1,0 @@
-schedule function siscu:tick_30s 30s

@@ -1,4 +1,18 @@
 
+Survivor's Elegy Alpha v0.2.0 (01/02/2022)
+- Added Daytime extender module
+        - Added function siscu:config for basic daytime features config
+- Added death coordinates module
+- Added slimeball to the fish loot table (swamp)
+- Added advancements to grant the Q.O.L. recipes at the same time as the vanilla recipes
+- Changed in siscu:story some advancement parents
+        - Added "villages" advancement
+- Changed Ravager Horns so they're not weapons anymore
+- Fixed piglin skeletons not spawning naturally in the nether
+- Fixed function siscu:advancement/player_get_struck (inactive)
+- Optimised carrot_on_a_stick detection function
+- Removed advancement siscu:items/consume/frog_eat and function siscu:items/consume/frog_eat
+
 Survivor's Elegy Alpha v0.1.1 (29/01/2022)
 - Swamp Huts now generate correctly
 - Corrected missing names

@@ -9,9 +9,9 @@
 			"functions": [
 			{
 				"function": "minecraft:exploration_map",
-				"destination": "pillager_outpost",
-				"decoration": "banner_gray",
-				"skip_existing_chunks": true,
+				"destination": "village",
+				"decoration": "banner_brown",
+				"skip_existing_chunks": false,
 				"zoom": 3,
 				"search_radius": 100
 			},
