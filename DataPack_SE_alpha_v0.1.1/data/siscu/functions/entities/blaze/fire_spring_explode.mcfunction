@@ -1,3 +1,4 @@
+advancement grant @e[type=player,distance=..20] only siscu:minecraft/nether/fire_spring
 execute at @s run particle lava ~ ~-0.5 ~ 0 0 0 0.5 30 force
 execute at @s run particle flame ~ ~-0.5 ~ 0 0 0 0.5 100 force
 execute at @s run particle explosion_emitter

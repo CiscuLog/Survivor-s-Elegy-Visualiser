@@ -43,7 +43,7 @@
 			"name": "siscu:items/weapons/phage_arrow",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.25
+				"chance": 0.1
 			}]
 		}
 		]

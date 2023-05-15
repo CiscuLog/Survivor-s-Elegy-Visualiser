@@ -9,8 +9,8 @@ execute if score @s warped_food matches 25..30 run effect give @s minecraft:naus
 execute if score @s warped_food matches 30..39 run effect give @s minecraft:nausea 16 1 true
 execute if score @s warped_food matches 40.. run effect give @s minecraft:nausea 32 1 true
 
-execute if score @s warped_food matches 30.. run effect give @s minecraft:weakness 16 0 true
-execute if score @s warped_food matches 40.. run effect give @s minecraft:weakness 32 0 true
+execute if score @s warped_food matches 30.. run effect give @s minecraft:weakness 16 0 false
+execute if score @s warped_food matches 40.. run effect give @s minecraft:weakness 32 0 false
 
 
 execute if score @s warped_food matches 40.. run effect give @s minecraft:poison 32 0 false

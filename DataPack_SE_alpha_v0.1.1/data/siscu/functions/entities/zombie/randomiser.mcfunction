@@ -1,7 +1,7 @@
 # Tag the entity as checked
 
 tag @s add zombie_checked
-#execute as @s[tag=!special] unless predicate siscu:utils/is_baby run function siscu:entities/zombie/set_special_zombie
+execute as @s[tag=!special] run function siscu:entities/zombie/set_special_zombie
 
 # Set weapons
 

@@ -1,4 +1,3 @@
-tag @s add dungeons_trader
 
 loot replace entity @s armor.head loot siscu:items/misc/dungeon_trader_banner
 data merge entity @s {CustomName:'{"translate":"entity.siscu.dungeon_trader"}'}

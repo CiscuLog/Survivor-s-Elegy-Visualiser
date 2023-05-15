@@ -15,21 +15,21 @@
 				"Name": "minecraft:nether_wart",
 				"Properties": {"age":"2"}
 			},
-			"weight": 1
+			"weight": 2
 		},
 		{
 			"data": {
 				"Name": "minecraft:nether_wart",
 				"Properties": {"age":"1"}
 			},
-			"weight": 1
+			"weight": 5
 		},
 		{
 			"data": {
 				"Name": "minecraft:nether_wart",
 				"Properties": {"age":"0"}
 			},
-			"weight": 1
+			"weight": 10
 		}
 		]
 	}

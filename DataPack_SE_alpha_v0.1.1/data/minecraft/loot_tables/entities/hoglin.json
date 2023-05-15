@@ -70,22 +70,28 @@
             }
           ],
           "name": "minecraft:leather"
-        },
-	  {
-		  "type": "minecraft:loot_table",
-		  "name": "siscu:items/misc/hoglin_head",
-		  "conditions": [
-		  {
-			  "condition": "minecraft:entity_properties",
-			  "entity": "killer",
-			  "predicate": {
-				  "type": "minecraft:creeper",
-				  "nbt": "{powered: 1b}"
-			  }
-		  }
-		  ]
-		}
+        }
       ]
-    }
+    },
+	{
+		"rolls": 1.0,
+		"bonus_rolls":1.0,
+		"entries": [
+		  {
+			  "type": "minecraft:loot_table",
+			  "name": "siscu:items/misc/hoglin_head",
+			  "conditions": [
+			  {
+				  "condition": "minecraft:entity_properties",
+				  "entity": "killer",
+				  "predicate": {
+					  "type": "minecraft:creeper",
+					  "nbt": "{powered: 1b}"
+				  }
+			  }
+			  ]
+			}
+		]
+	}
   ]
 }

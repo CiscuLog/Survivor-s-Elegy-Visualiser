@@ -27,22 +27,28 @@
             }
           ],
           "name": "minecraft:rotten_flesh"
-        },
-	  {
-		  "type": "minecraft:loot_table",
-		  "name": "siscu:items/misc/zoglin_head",
-		  "conditions": [
-		  {
+        }
+      ]
+    },
+	{
+		"rolls": 1.0,
+		"bonus_rolls": 0.0,
+		"entries": [
+		{
+			"type": "minecraft:loot_table",
+			"name": "siscu:items/misc/zoglin_head",
+			"conditions": [
+			{
 			  "condition": "minecraft:entity_properties",
 			  "entity": "killer",
 			  "predicate": {
 				  "type": "minecraft:creeper",
 				  "nbt": "{powered: 1b}"
 			  }
-		  }
-		  ]
+			}
+			]
 		}
-      ]
-    }
+		]
+	}
   ]
 }

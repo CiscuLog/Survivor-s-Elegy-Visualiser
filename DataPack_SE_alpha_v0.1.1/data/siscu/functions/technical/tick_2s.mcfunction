@@ -19,4 +19,7 @@ execute as @e[type=player] if score @s death matches 1.. at @s run function sisc
 ## Ambient Effects ##
 execute as @e[type=marker,tag=breach] run function siscu:world/breach_effects
 
+## Worldgen w/markers ##
+execute as @e[type=marker,tag=outpost_center,predicate=siscu:locations/check_outpost] at @s run function siscu:world/pillager_outpost/main
+
 function siscu:technical/tick_2s_schedule

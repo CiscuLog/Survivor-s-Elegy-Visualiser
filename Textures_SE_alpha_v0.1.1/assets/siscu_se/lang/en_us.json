@@ -66,5 +66,11 @@
 	"text.siscu.suspicious_stew_book_author":"Calendula",
 	"text.siscu.wax_horse_armor": "Protects Zombie Horses from Rotting",
 	"text.siscu.wax_horse_armor2": "Must be equipped before zombification",
-	"title.siscu.day": "Day "
+	"title.siscu.cardinal_1":"st",
+	"title.siscu.cardinal_2":"nd",
+	"title.siscu.cardinal_3":"rd",
+	"title.siscu.cardinal_else":"th",
+	"title.siscu.day": "Day ",
+	"title.siscu.new_day": "Dawn of the ",
+	"title.siscu.new_day2": " day"
 }

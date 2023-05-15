@@ -9,8 +9,8 @@
 					"entity":"this",
 					"predicate": {
 						"equipment": {
-							"mainhand": {
-								"items": ["iron_helmet"],
+							"head": {
+								"items": ["carrot_on_a_stick"],
 								"nbt": "{CustomModelData:548101}"
 							}
 						}
@@ -28,8 +28,8 @@
 					"entity":"this",
 					"predicate": {
 						"equipment": {
-							"mainhand": {
-								"items": ["iron_helmet"],
+							"head": {
+								"items": ["carrot_on_a_stick"],
 								"nbt": "{CustomModelData:548102}"
 							}
 						}
@@ -47,8 +47,8 @@
 					"entity":"this",
 					"predicate": {
 						"equipment": {
-							"mainhand": {
-								"items": ["iron_helmet"],
+							"head": {
+								"items": ["carrot_on_a_stick"],
 								"nbt": "{CustomModelData:548103}"
 							}
 						}

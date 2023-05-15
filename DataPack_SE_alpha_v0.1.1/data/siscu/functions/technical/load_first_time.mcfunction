@@ -1,5 +1,6 @@
 # Storages
 data merge storage siscu:world {LoadFirstTime:1}
+execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 
 #set gamerules
 gamerule doInsomnia false

@@ -11,8 +11,9 @@ execute as @e[type=iron_golem,tag=!golem_checked] run function siscu:entities/ir
 execute as @e[type=#piglin,tag=!piglin_checked,tag=!special] run function siscu:entities/piglin/selector
 execute as @e[type=pillager,tag=!pillager_checked] run function siscu:entities/pillager/randomiser
 execute as @e[type=skeleton,tag=!skeleton_checked] run function siscu:entities/skeleton/randomiser
-execute as @e[type=trader_llama,tag=!llama_checked] run function siscu:entities/trader_llama/randomiser
 execute as @e[type=wandering_trader,tag=!trader_checked] run function siscu:entities/wandering_trader/randomiser
+execute as @e[type=trader_llama,tag=!llama_checked] run function siscu:entities/trader_llama/randomiser
+execute as @e[type=villager,tag=!villager_checked] at @s run function siscu:entities/villager/randomiser
 execute as @e[type=witch,tag=!witch_checked] at @s run function siscu:entities/witch/randomiser
 execute as @e[type=wither_skeleton,tag=!skeleton_checked] run function siscu:entities/wither_skeleton/randomiser
-execute as @e[type=zombie,tag=!zombie_checked] run function siscu:entities/zombie/randomiser
+execute as @e[type=zombie,tag=!zombie_checked] at @s run function siscu:entities/zombie/randomiser
