@@ -1,5 +1,5 @@
-scoreboard players remove @s withering 1
-scoreboard players add @s warped_food 1
+execute unless score @s siscu.withering matches ..-20 run scoreboard players remove @s siscu.withering 1
+execute unless score @s siscu.warped_food matches 60.. run scoreboard players add @s siscu.warped_food 1
 
 execute as @s at @s run function siscu:world/warped_food_effects
 

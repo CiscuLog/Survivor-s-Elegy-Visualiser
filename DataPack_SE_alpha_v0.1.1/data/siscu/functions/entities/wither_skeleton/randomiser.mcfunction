@@ -4,11 +4,10 @@ tag @s add skeleton_checked
 
 # Replace items
 
-loot replace entity @s weapon loot siscu:groups/wither_skeleton_weapons
 
-loot replace entity @s weapon.offhand loot siscu:groups/wither_skeleton_shields
+execute at @s if predicate siscu:utils/1_percent run tag @s add villager
+execute at @s[tag=!villager] if predicate siscu:utils/75_percent run tag @s add piglin
 
-loot replace entity @s armor.head loot siscu:groups/wither_skeleton_helmets
-loot replace entity @s armor.chest loot siscu:groups/wither_skeleton_chestplates
-loot replace entity @s armor.legs loot siscu:groups/wither_skeleton_leggings
-loot replace entity @s armor.feet loot siscu:groups/wither_skeleton_boots
+execute as @s[tag=villager] run function siscu:entities/wither_skeleton/withered_illager_skeleton
+execute as @s[tag=piglin] run function siscu:entities/wither_skeleton/withered_piglin_skeleton
+execute as @s[tag=!villager,tag=!piglin] run function siscu:entities/wither_skeleton/withered_player_skeleton

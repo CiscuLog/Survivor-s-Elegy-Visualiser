@@ -1,14 +1,17 @@
-scoreboard players set @s item_frame_inv 0
+scoreboard players set @s siscu.item_frame_inv 0
 
-execute if entity @s[nbt={Item:{id: "minecraft:shield"}}] run scoreboard players set @s item_frame_inv 1
-execute if entity @s[nbt={Item:{id: "minecraft:leather", tag:{CustomModelData:548101}}}] run scoreboard players set @s item_frame_inv 1
-execute if entity @s[nbt={Item:{id: "minecraft:leather", tag:{CustomModelData:548101}}}] unless predicate siscu:entities/check_horizontal run function siscu:entities/item_frame/fix_rotation
-execute if entity @s[nbt={Item:{id: "minecraft:leather", tag:{CustomModelData:548109}}}] run scoreboard players set @s item_frame_inv 1
-execute if entity @s[nbt={Item:{id: "minecraft:leather", tag:{CustomModelData:548109}}}] unless predicate siscu:entities/check_horizontal run function siscu:entities/item_frame/fix_rotation
-execute if entity @s[nbt={Item:{id: "minecraft:leather", tag:{CustomModelData:548111}}}] run scoreboard players set @s item_frame_inv 1
-execute if entity @s[nbt={Item:{id: "minecraft:leather", tag:{CustomModelData:548111}}}] unless predicate siscu:entities/check_horizontal run function siscu:entities/item_frame/fix_rotation
-execute if entity @s[nbt={Item:{id: "minecraft:leather", tag:{CustomModelData:548112}}}] run scoreboard players set @s item_frame_inv 1
-execute if entity @s[nbt={Item:{id: "minecraft:leather", tag:{CustomModelData:548112}}}] unless predicate siscu:entities/check_horizontal run function siscu:entities/item_frame/fix_rotation
+execute if predicate siscu:entities/item_frame/multicheck_items run tag @s add check_again
+execute if predicate siscu:entities/item_frame/invisible_items run scoreboard players set @s siscu.item_frame_inv 1
+execute if predicate siscu:entities/item_frame/fixed_items if predicate siscu:entities/item_frame/is_rotated run function siscu:entities/item_frame/fix_rotation
 
-execute as @s if score @s[tag=!invisible] item_frame_inv matches 1 run function siscu:entities/item_frame/invisible_item_frame
-execute as @s if score @s[tag=invisible] item_frame_inv matches 0 run function siscu:entities/item_frame/visible_item_frame
+# Bee Counter #
+execute if entity @s[nbt={Item:{id: "minecraft:raw_copper", tag:{CustomModelData:540000}}}] if entity @e[type=player,distance=..10] run execute at @s[type=#siscu:item_frames] run function siscu:entities/item_frame/bee_counter/bee_counter
+
+# Shutters #
+## unrolled
+execute if entity @s[nbt={Item:{id: "minecraft:stick", tag:{CustomModelData:548103}}}] if predicate siscu:entities/item_frame/is_rotated run function siscu:entities/item_frame/shutters/roll_shutters
+## rolled
+execute if entity @s[nbt={Item:{id: "minecraft:stick", tag:{CustomModelData:548104}}}] if predicate siscu:entities/item_frame/is_rotated run function siscu:entities/item_frame/shutters/unroll_shutters
+
+execute as @s if score @s[tag=!invisible] siscu.item_frame_inv matches 1 run function siscu:entities/item_frame/invisible_item_frame
+execute as @s if score @s[tag=invisible] siscu.item_frame_inv matches 0 run function siscu:entities/item_frame/visible_item_frame

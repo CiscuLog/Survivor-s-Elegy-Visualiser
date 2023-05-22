@@ -10,6 +10,7 @@ item replace entity @e[tag=converted,limit=1,sort=nearest] armor.legs from entit
 item replace entity @e[tag=converted,limit=1,sort=nearest] armor.feet from entity @s armor.feet
 
 data modify entity @e[tag=converted,limit=1,sort=nearest] Tags append from entity @s Tags[]
+data modify entity @e[tag=converted,limit=1,sort=nearest] ActiveEffects set from entity @s ActiveEffects
 data modify entity @e[tag=converted,limit=1,sort=nearest] LeftHanded set from entity @s LeftHanded
 data modify entity @e[tag=converted,limit=1,sort=nearest] ArmorDropChances set from entity @s ArmorDropChances
 data modify entity @e[tag=converted,limit=1,sort=nearest] HandDropChances set from entity @s HandDropChances

@@ -4,8 +4,19 @@
 			"trigger":"minecraft:consume_item",
 			"conditions": {
 				"item": {
-					"items":["enchanted_golden_apple"]
+					"items":["enchanted_golden_apple","golden_apple"]
+				},
+				"player": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"effects": {
+							"minecraft:weakness": {}
+						}
+					}
 				}
+				]
 			}
 		}
 	},

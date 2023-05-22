@@ -13,6 +13,7 @@ loot replace entity @s[tag=piglin] armor.legs loot siscu:groups/piglin_leggings
 loot replace entity @s[tag=piglin] armor.feet loot siscu:groups/piglin_boots
 
 execute at @s if predicate siscu:utils/5_percent if predicate siscu:utils/check_overworld run tag @s add villager
+execute at @s if predicate siscu:locations/check_village run tag @s add villager
 loot replace entity @s[tag=villager] weapon loot siscu:groups/villager_skeleton_weapons
 loot replace entity @s[tag=villager] armor.head loot siscu:groups/villager_skeleton_heads_natural
 

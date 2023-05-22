@@ -1,10 +1,10 @@
-scoreboard players set day_minutes day 20
-scoreboard players operation day_minutes day *= daytime_speed day
-scoreboard players operation day_hours day = day_minutes day
-scoreboard players operation day_hours_rem day = day_minutes day
-scoreboard players operation day_hours day /= 60 integer
-scoreboard players operation day_hours_rem day %= 60 integer
+scoreboard players set day_minutes siscu.day 20
+scoreboard players operation day_minutes siscu.day *= daytime_speed siscu.day
+scoreboard players operation day_hours siscu.day = day_minutes siscu.day
+scoreboard players operation day_hours_rem siscu.day = day_minutes siscu.day
+scoreboard players operation day_hours siscu.day /= 60 siscu.integer
+scoreboard players operation day_hours_rem siscu.day %= 60 siscu.integer
 
-execute if score day_hours_rem day matches 0 run tellraw @a [{"translate":"One daylight cycle is now ","color":"gold","bold":"true"},{"score":{"name":"day_minutes","objective":"day"}},{"translate":" minutes ("},{"score":{"name":"day_hours","objective":"day"}},{"text":":"},{"score":{"name":"day_hours_rem","objective":"day"}},{"text":"0 hours)"}]
-execute unless score day_hours_rem day matches 0 run tellraw @a [{"translate":"One daylight cycle is now ","color":"gold","bold":"true"},{"score":{"name":"day_minutes","objective":"day"}},{"translate":" minutes ("},{"score":{"name":"day_hours","objective":"day"}},{"text":":"},{"score":{"name":"day_hours_rem","objective":"day"}},{"text":" hours)"}]
+execute if score day_hours_rem siscu.day matches 0 run tellraw @a [{"translate":"One daylight cycle is now ","color":"gold","bold":"true"},{"score":{"name":"day_minutes","objective":"siscu.day"}},{"translate":" minutes ("},{"score":{"name":"day_hours","objective":"siscu.day"}},{"text":":"},{"score":{"name":"day_hours_rem","objective":"siscu.day"}},{"text":"0 hours)"}]
+execute unless score day_hours_rem siscu.day matches 0 run tellraw @a [{"translate":"One daylight cycle is now ","color":"gold","bold":"true"},{"score":{"name":"day_minutes","objective":"siscu.day"}},{"translate":" minutes ("},{"score":{"name":"day_hours","objective":"siscu.day"}},{"text":":"},{"score":{"name":"day_hours_rem","objective":"siscu.day"}},{"text":" hours)"}]
 playsound minecraft:block.note_block.bell master @s ~ ~ ~ 1 1

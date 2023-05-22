@@ -1,3 +1,3 @@
 tag @s add zombifying
-scoreboard players set @s[type=#siscu:zombie_compatible] zombifying -20
+execute if predicate siscu:entities/has_weak_phage run scoreboard players set @s[type=#siscu:zombie_compatible] siscu.zombifying -24000
 effect give @s[type=!#siscu:zombie_compatible] poison 999999 1

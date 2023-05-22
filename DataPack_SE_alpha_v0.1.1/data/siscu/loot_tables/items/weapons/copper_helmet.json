@@ -5,11 +5,15 @@
 		"entries": [
 		{
 			"type": "minecraft:item",
-			"name": "minecraft:carrot_on_a_stick",
+			"name": "minecraft:leather_helmet",
 			"functions": [
 			{
 				"function": "minecraft:set_nbt",
-				"tag": "{CustomModelData:548101}"
+				"tag": "{CustomModelData:548101,SE_data:{CustomHelmet:1,IsCopper:1,UpdateVersion: \"ALPHA_v0.3.1\", RealDurability:55, Durability:165, Damage:0, Oxidation:0}}"
+			},
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{display:{color: 15301202}}"
 			},
 			{
 				"function": "minecraft:set_name",
@@ -19,22 +23,8 @@
 				}
 			},
 			{
-				"function": "minecraft:set_lore",
-				"lore": [
-				{
-					"text": "Press ",
-					"italic": false,
-					"color": "gray",
-					"extra": [
-					{
-						"keybind": "key.use"
-					},
-					{
-						"text": " to equip"
-					}
-					]
-				}
-				]
+				"function": "minecraft:set_nbt",
+				"tag": "{HideFlags:64}"
 			},
 			{
 				"function": "minecraft:set_attributes",

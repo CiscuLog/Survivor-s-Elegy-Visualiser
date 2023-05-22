@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "minecraft:shulker_boxes"
-  },
-  "result": "minecraft:shulker_shell",
-  "count": 2
-}

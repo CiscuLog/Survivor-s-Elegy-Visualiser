@@ -1,6 +1,9 @@
 {
-	"condition": "minecraft:location_check",
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
 	"predicate": {
-		"feature": "swamp_hut"
+		"location": {
+			"structure": "swamp_hut"
+		}
 	}
 }

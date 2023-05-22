@@ -17,6 +17,7 @@
 	{"predicate": {"custom_model_data": 548111}, "model": "siscu_se:item/piglin_skull_golden"},
 	{"predicate": {"custom_model_data": 548112}, "model": "siscu_se:item/piglin_skull_chainmail"},
 	{"predicate": {"custom_model_data": 548113}, "model": "siscu_se:item/piglin_skull_netherite"},
+	{"predicate": {"custom_model_data": 548114}, "model": "siscu_se:item/piglin_skull_withered"},
 	{"predicate": {"custom_model_data": 548115}, "model": "siscu_se:item/skeleton_horse_head"},
 	{"predicate": {"custom_model_data": 548120}, "model": "siscu_se:item/villager_skull"},
 	{"predicate": {"custom_model_data": 548121}, "model": "siscu_se:item/villager_skull_armorer"},
@@ -33,6 +34,7 @@
 	{"predicate": {"custom_model_data": 548132}, "model": "siscu_se:item/villager_skull_shepherd"},
 	{"predicate": {"custom_model_data": 548133}, "model": "siscu_se:item/villager_skull"},
 	{"predicate": {"custom_model_data": 548134}, "model": "siscu_se:item/villager_skull_weaponsmith"},
-	{"predicate": {"custom_model_data": 548135}, "model": "siscu_se:item/wither_boss_head"}
+	{"predicate": {"custom_model_data": 548135}, "model": "siscu_se:item/wither_boss_head"},
+	{"predicate": {"custom_model_data": 548140}, "model": "siscu_se:item/villager_skull_withered"}
 	]
 }

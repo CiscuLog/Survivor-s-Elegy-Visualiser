@@ -4,49 +4,19 @@
 		"rolls": 1,
 		"entries": [
 		{
-			"type": "minecraft:item",
-			"name": "minecraft:carrot_on_a_stick",
+			"type": "minecraft:loot_table",
+			"name": "siscu:items/weapons/copper_helmet",
 			"functions": [
 			{
 				"function": "minecraft:set_nbt",
-				"tag": "{CustomModelData:548102}"
+				"tag": "{CustomModelData:548102,display:{color:9464656}}"
 			},
 			{
 				"function": "minecraft:set_name",
 				"name": {
 					"translate": "item.siscu.exposed_copper_helmet",
-					"italic": false
+					"italic": False
 				}
-			},
-			{
-				"function": "minecraft:set_lore",
-				"lore": [
-				{
-					"text": "Press ",
-					"italic": false,
-					"color": "gray",
-					"extra": [
-					{
-						"keybind": "key.use"
-					},
-					{
-						"text": " to equip"
-					}
-					]
-				}
-				]
-			},
-			{
-				"function": "minecraft:set_attributes",
-				"modifiers": [
-				{
-					"attribute": "generic.armor",
-					"name": "generic.armor",
-					"operation": "addition",
-					"amount": 2,
-					"slot": "head"
-				}
-				]
 			}
 			]
 		}

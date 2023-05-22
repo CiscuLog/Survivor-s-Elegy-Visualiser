@@ -12,10 +12,20 @@
 	"parent": "siscu:story/outpost_compass",
 	"criteria": {
 		"0": {
-			"trigger":"minecraft:location",
 			"conditions": {
-				"location": {"feature":"pillager_outpost"}
-			}
+				"player": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"structure": "minecraft:pillager_outpost"
+						}
+					}
+				}
+				]
+			},
+			"trigger": "minecraft:location"
 		}
 	}
 }

@@ -24,13 +24,21 @@
     "experience": 500
   },
   "criteria": {
-    "0": {
-      "trigger": "minecraft:location",
+    "siscu:withered_grounds": {
       "conditions": {
-        "location": {
-          "biome": "siscu:withered_grounds"
-        }
-      }
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "siscu:withered_grounds"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
     }
   }
 }

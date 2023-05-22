@@ -1,7 +1,9 @@
-summon wither_skeleton ~ ~ ~ {Tags:["skeleton_checked","converted","withered"]}
+summon wither_skeleton ~ ~ ~ {Tags:["entity_checked","skeleton_checked","converted","withered"]}
 
 item replace entity @e[tag=converted,limit=1,sort=nearest] weapon from entity @s weapon
 item replace entity @e[tag=converted,limit=1,sort=nearest] weapon.offhand from entity @s weapon.offhand
+execute if entity @s[tag=piglin] run loot replace entity @e[tag=converted,limit=1,sort=nearest] armor.head loot siscu:entities/wither_skeleton/wither_skeleton_piglin_skulls
+execute if entity @s[tag=villager] run loot replace entity @e[tag=converted,limit=1,sort=nearest] armor.head loot siscu:entities/wither_skeleton/wither_skeleton_villager_skulls
 execute if entity @s[tag=!piglin,tag=!villager] run item replace entity @e[tag=converted,limit=1,sort=nearest] armor.head from entity @s armor.head
 item replace entity @e[tag=converted,limit=1,sort=nearest] armor.chest from entity @s armor.chest
 item replace entity @e[tag=converted,limit=1,sort=nearest] armor.legs from entity @s armor.legs

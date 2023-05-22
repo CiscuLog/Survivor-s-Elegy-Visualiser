@@ -14,7 +14,17 @@
 		"0": {
 			"trigger":"minecraft:location",
 			"conditions": {
-				"location": {"feature":"swamp_hut"}
+				"player": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"structure": "swamp_hut"
+						}
+					}
+				}
+				]
 			}
 		}
 	}

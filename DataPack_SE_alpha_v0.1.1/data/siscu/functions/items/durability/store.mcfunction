@@ -1,0 +1,2 @@
+execute store result score siscu.durability siscu.test run data get entity @p SelectedItem.tag.SE_data.Durability
+execute store result score siscu.damage siscu.test run data get entity @p SelectedItem.tag.SE_data.Damage

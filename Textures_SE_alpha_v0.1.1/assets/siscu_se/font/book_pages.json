@@ -62,15 +62,6 @@
 			"chars": [
 				"\uE612"
 			]
-		},
-		{
-			"type": "bitmap",
-			"file": "siscu_se:font/witch/stew4.png",
-			"ascent": 10,
-			"height": 130,
-			"chars": [
-				"\uE613"
-			]
 		}
 	]
 }

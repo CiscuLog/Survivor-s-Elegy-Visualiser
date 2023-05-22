@@ -25,12 +25,20 @@
   },
   "criteria": {
     "siscu:metamorphic_caves": {
-      "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "biome": "siscu:metamorphic_caves"
-        }
-      }
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "siscu:metamorphic_caves"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
     }
   }
 }

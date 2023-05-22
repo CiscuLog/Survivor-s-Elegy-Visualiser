@@ -18,7 +18,12 @@
 						},
 						"vehicle": {
 							"type": "#minecraft:enchanted_saddle_mobs",
-							"nbt":"{SaddleItem:{tag:{Enchantments:[{id:\"siscu:catalyst\"}]}}}"
+							"nbt":"{SaddleItem:{tag:{Enchantments:[{id:\"siscu:catalyst\"}]}}}",
+							"location": {
+								"block": {
+									"tag": "siscu:transparent_blocks"
+								}
+							}
 						}
 					}
 				}
