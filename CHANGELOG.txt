@@ -1,3 +1,12 @@
+Survivor's Elegy Alpha v0.4.1 (25/09/2022)
+- Changes to zombifying
+-- Fixed weak phage duration to the intended 20 minutes
+-- The effect time now represents the time left for the zombification to happen
+- Changes to advancements
+-- Bee Counter advancement no longer requires light weighted pressure plates to be unlocked
+- Fixed CTAM tool breaking
+
+
 Survivor's Elegy Alpha v0.4.0 (18/09/2022)
 - Added Bee Counter
 -- Must be placed on item frames
@@ -100,11 +109,13 @@ Survivor's Elegy Alpha v0.3.0 (12/03/2022)
 - Removed nitwit villagers
 - Reworked day titles
 
+
 Survivor's Elegy Alpha v0.2.1 (02/02/2022)
 - Changed siscu:world/breach spawn so at first login the time will advance to the morning of the same day instead of day 0
 - Changed pillager loot: outpost compass only drops when killed by a player
 - Fixed error in metamorphic caves biome
 - Optimised siscu:world/day_features/day_set_morning
+
 
 Survivor's Elegy Alpha v0.2.0 (01/02/2022)
 - Added Daytime extender module
@@ -119,6 +130,7 @@ Survivor's Elegy Alpha v0.2.0 (01/02/2022)
 - Fixed function siscu:advancement/player_get_struck (inactive)
 - Optimised carrot_on_a_stick detection function
 - Removed advancement siscu:items/consume/frog_eat and function siscu:items/consume/frog_eat
+
 
 Survivor's Elegy Alpha v0.1.1 (29/01/2022)
 - Swamp Huts now generate correctly

@@ -4,7 +4,7 @@
 			"item": "minecraft:player_head"
 		},
 		"title": "Humans",
-		"description": "Your race",
+		"description": "Your kind",
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": true

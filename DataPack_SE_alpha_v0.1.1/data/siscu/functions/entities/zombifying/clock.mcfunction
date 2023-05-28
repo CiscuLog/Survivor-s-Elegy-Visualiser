@@ -15,6 +15,6 @@ execute if score @s[type=!player] siscu.zombifying matches 1.. run function sisc
 execute if score @s siscu.zombifying >= zombie_timer_limit siscu.integer run kill @s
 execute if score @s siscu.zombifying >= zombie_timer_limit siscu.integer run scoreboard players reset @s siscu.zombifying
 
-execute unless predicate siscu:entities/has_phage run effect give @s unluck 100000 20
+execute unless predicate siscu:entities/has_phage run function siscu:entities/zombifying/apply_phage
 
 kill @s[type=!#siscu:zombie_compatible,nbt={Health: 1.0f}]

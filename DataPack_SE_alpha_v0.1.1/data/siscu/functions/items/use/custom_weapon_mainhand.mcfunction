@@ -25,6 +25,6 @@ execute store result storage siscu:damages RealDamage int 1 run scoreboard playe
 
 # set item data
 
-item modify entity @s weapon.mainhand siscu:durability/rewrite_data
+execute unless score siscu.damage siscu.test > siscu.durability siscu.test run item modify entity @s weapon.mainhand siscu:durability/rewrite_data
 
 advancement revoke @s only siscu:items/use/custom_weapon_mainhand

@@ -1,5 +1,5 @@
 # Storages
-data merge storage siscu:world {LoadFirstTime:1}
+data merge storage siscu:world {PackVersion:"0.4.1"}
 execute unless data storage siscu:world DragonSlayer run data merge storage siscu:world {DragonSlayer:"null"}
 
 #set gamerules
@@ -48,6 +48,7 @@ scoreboard players set 3 siscu.integer 3
 scoreboard players set 5 siscu.integer 5
 scoreboard players set 7 siscu.integer 7
 scoreboard players set 10 siscu.integer 10
+scoreboard players set 20 siscu.integer 20
 scoreboard players set 16 siscu.integer 16
 scoreboard players set 60 siscu.integer 60
 scoreboard players set 100 siscu.integer 100

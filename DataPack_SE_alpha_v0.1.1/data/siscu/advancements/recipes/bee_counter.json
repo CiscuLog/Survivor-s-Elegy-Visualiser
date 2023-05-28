@@ -35,14 +35,6 @@
 					"items": ["redstone"]
 				}]
 			}
-        },
-        "3": {
-            "trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [{
-					"items": ["light_weighted_pressure_plate"]
-				}]
-			}
         }
     }
 }

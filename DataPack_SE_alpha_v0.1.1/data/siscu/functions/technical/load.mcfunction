@@ -1,10 +1,8 @@
 #create scoreboards
-execute unless data storage siscu:world LoadFirstTime run function siscu:technical/load_first_time
+execute unless data storage siscu:world {PackVersion:"0.4.1"} run function siscu:technical/load_first_time
 
 #delete schedules
-schedule clear siscu:technical/tick_1s_schedule
-schedule clear siscu:technical/tick_2s_schedule
-schedule clear siscu:technical/tick_60s_schedule
+function siscu:technical/clear_schedules
 
 #start functions
 function siscu:technical/tick_1s_schedule
