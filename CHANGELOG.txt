@@ -1,3 +1,6 @@
+Survivor's Elegy Alpha v0.4.2 (27/09/2022)
+- Patched zombifying for non-players
+
 Survivor's Elegy Alpha v0.4.1 (25/09/2022)
 - Changes to zombifying
 -- Fixed weak phage duration to the intended 20 minutes

@@ -25,7 +25,6 @@ execute store result storage siscu:damages RealDamage int 1 run scoreboard playe
 
 # set item data
 
-item modify entity @s armor.legs siscu:durability/rewrite_data
-execute if score siscu.damage siscu.test > siscu.durability siscu.test run item replace entity @s armor.legs with air
+execute unless score siscu.damage siscu.test > siscu.durability siscu.test run item modify entity @s armor.legs siscu:durability/rewrite_data
 
 advancement revoke @s only siscu:items/use/custom_armor_leggings
