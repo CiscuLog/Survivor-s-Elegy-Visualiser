@@ -1,9 +1,13 @@
 {
 	"advancements.siscu.description_1": "A song to the memories that have been lost",
 	"advancements.siscu.description_2": "By Siscu",
+	"advancements.siscu.enchanter_book.title": "Enchanters Guide",
+	"advancements.siscu.enchanter_book.description": "Contains ancient glyphs to enchant items",
 
 	"entity.siscu.dungeon_trader": "Dungeon Trader",
+	"entity.siscu.fire_spring": "Incandescent Matter",
 
+	"item.siscu.ancient_city_map": "Dark Cave Explorer Map",
 	"item.siscu.bass": "Bass",
 	"item.siscu.battle_staff": "Combat Stick",
 	"item.siscu.battle_staff_bamboo": "Combat Bamboo Stick",
@@ -82,7 +86,7 @@
 	"item.siscu.zoglin_head": "Zoglin Head",
 
 	"pack.siscu": "Survivor's Elegy",
-	"pack.siscu.version": "alpha v0.4.2",
+	"pack.siscu.version": "alpha v0.4.3",
 
 	"text.siscu.click_to_wear1": "Press ",
 	"text.siscu.click_to_wear2": " to wear",

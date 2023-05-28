@@ -45,8 +45,8 @@
 				{
 					"attribute": "generic.attack_damage",
 					"name": "generic.attack_damage",
-					"operation": "multiply_total",
-					"amount": 2,
+					"operation": "multiply_base",
+					"amount": 3,
 					"slot": "mainhand"
 				}
 				]

@@ -1,18 +1,14 @@
 {
-	"type": "crafting_shaped",
+	"type": "crafting_shapeless",
 	"group": "siscu_crafting",
-	"pattern": [
-	"W",
-	"U"
-	],
-	"key": {
-		"W": {
-			"item": "minecraft:warped_wart_block"
-		},
-		"U": {
-			"item": "minecraft:bowl"
-		}
-	},
+	"ingredients": [
+    	{
+      		"item": "minecraft:warped_wart_block"
+   	},
+   	{
+    		"item": "minecraft:bowl"
+   	}
+  	],
 	"result": {
 		"item": "minecraft:knowledge_book"
 	}

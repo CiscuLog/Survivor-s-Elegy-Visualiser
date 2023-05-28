@@ -1,7 +1,7 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
-    "#minecraft:rotting_mobs",
+    "#siscu:rotting_mobs",
     "minecraft:zombie_villager",
     "minecraft:zombie_horse",
     "minecraft:zoglin"

@@ -20,5 +20,5 @@ playsound minecraft:entity.zombie_horse.death neutral @a ~ ~ ~ 1 0.8
 effect give @e[tag=zombified] slowness 3 2 true
 
 tag @e[tag=zombified] remove zombified
-tp @s[type=!player] ~ ~-100000 ~
+tp @s[type=!player] ~ -200 ~
 kill @s

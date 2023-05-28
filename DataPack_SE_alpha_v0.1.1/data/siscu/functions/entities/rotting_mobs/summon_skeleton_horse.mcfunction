@@ -16,4 +16,4 @@ playsound minecraft:entity.skeleton.converted_to_stray neutral @a ~ ~ ~ 1 0.8
 effect give @e[tag=converted] slowness 3 2 true
 
 tag @e[tag=converted] remove converted
-kill @s
+kill @s[type=!player]

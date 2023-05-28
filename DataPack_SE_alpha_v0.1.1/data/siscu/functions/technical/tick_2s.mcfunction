@@ -2,10 +2,14 @@
 execute as @e[type=#siscu:subject_to_check,tag=!entity_checked] at @s run function siscu:entities/global
 
 ## Entity Behav ##
-execute as @e[type=#rotting_mobs_all,tag=!rot_checked,predicate=siscu:utils/is_not_baby] run function siscu:entities/rotting_mobs/assign_initial_rot
-execute as @e[type=#rotting_mobs_all,predicate=siscu:utils/is_not_baby] run function siscu:entities/rotting_mobs/convert
-execute as @e[type=skeleton,predicate=siscu:utils/check_the_nether] run function siscu:entities/skeleton/wither
 execute as @e[type=#siscu:lamp_holders,tag=!offhand_protected] run function siscu:entities/lamp_holders/time_check
+
+## Rotting ##
+execute as @e[type=#siscu:rotting_mobs_all,tag=!rot_checked] run function siscu:entities/rotting_mobs/assign_initial_rot
+execute as @e[type=#siscu:rotting_mobs_all] run function siscu:entities/rotting_mobs/convert
+
+## Withering ##
+execute as @e[type=skeleton,predicate=siscu:utils/check_the_nether] run function siscu:entities/skeleton/wither
 
 ## Zombifying ##
 execute as @e[predicate=siscu:entities/has_phage,tag=!zombifying] run function siscu:entities/zombifying/start_zombifying

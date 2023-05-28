@@ -7,4 +7,4 @@ execute if predicate siscu:utils/75_percent run scoreboard players operation @s 
 
 scoreboard players operation @s siscu.rotting_mob %= rotting_random_limit siscu.integer
 
-execute if predicate siscu:utils/is_baby run scoreboard players reset @s siscu.rotting_mob
+#execute if predicate siscu:utils/is_baby run scoreboard players reset @s siscu.rotting_mob

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:jigsaw"
 		},
-		"title": {"text": "Enchanters Guide","font":"minecraft:alt"},
-		"description": "Contains ancient glyphs to enchant items",
+		"title": {"translate": "advancements.siscu.enchanter_book.title","font":"minecraft:alt"},
+		"description": {"translate": "advancements.siscu.enchanter_book.description"},
 		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": true

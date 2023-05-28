@@ -1,5 +1,51 @@
+
+# note to the author: change pack.siscu.version (lang)
+
+Survivor's Elegy Alpha v0.4.3 (03/11/2022)
+- Added Dark Cave Explorer Maps
+-- Sold by expert (tier 4) cartographers
+-- Points at an Ancient City on unloaded chunks
+- Added Dripstone Zombies
+-- Spawn 1% of the time in the underground, 10% on dripstone caves
+-- Higher melee damage than unarmed zombies
+-- Create dripstone particles on death
+- Added true creeper fuse randomness
+-- Between 20 and 40 ticks (1 to 2 seconds)
+- Added Withering config panel
+-- Turn withering ON/OFF
+- Changed player zombie stage
+-- Changed default zombie time limit from 20 seconds to 120 seconds
+- Changed Recipes
+-- Colored beds can be tinted
+-- Jack'o Lanterns recipe is now shapeless
+- Changed rotting, zombifying and skeleton withering
+-- Baby zombie variants now die when rotting
+-- Original entity is now killed instead of being dropped in the void
+- Changed soul speed behavior
+-- It can be used on sculk and sculk catalysts
+- Changed zombie chestplates
+-- Will only be equipped unless a zombie has spawned already dressed
+- Fixed Combat Sticks
+-- Previous damage per hit was 3HP, now is the promised 4HP
+-- Already existing combat sticks won't be affected by this change
+- Fixed converted zombies
+-- Lush and amethyst zombies now keep its special drop even when converted to drowned, skeleton and wither skeleton
+- Fixed Skeleton Horsemen
+-- Will now always hold a bow
+- Fixed Trader Llamas
+-- Baby llamas won't spawn chested or with a carpet
+- Removed default mineshafts
+-- Replaced by jigsaw-generated mineshafts known as "old mineshafts"
+--- Close but not exactly the same generation as vanilla mineshafts
+-- Removed cave spider spawners
+--- Cave Spiders now spawn naturally around the new mineshafts, making up to 50% of the monster spawns
+- Removed vanilla desert wells
+-- No one will notice this change
+
+
 Survivor's Elegy Alpha v0.4.2 (27/09/2022)
 - Patched zombifying for non-players
+
 
 Survivor's Elegy Alpha v0.4.1 (25/09/2022)
 - Changes to zombifying

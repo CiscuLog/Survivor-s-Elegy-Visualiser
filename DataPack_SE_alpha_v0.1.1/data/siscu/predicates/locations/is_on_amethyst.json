@@ -3,7 +3,7 @@
 	"entity": "this",
 	"predicate": {
 		"stepping_on": {
-			"block": {"blocks":["amethyst_block","amethyst_cluster"]}
+			"block": {"blocks":["amethyst_block","budding_amethyst"]}
 		}
 	}
 }

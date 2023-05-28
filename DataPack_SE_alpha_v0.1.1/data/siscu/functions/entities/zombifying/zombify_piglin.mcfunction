@@ -23,5 +23,5 @@ effect give @e[tag=zombified] slowness 3 2 true
 
 tag @e[tag=zombified] remove zombified
 tag @s add dead
-tp @s[type=!player] ~ ~-100000 ~
+tp @s[type=!player] ~ ~-200 ~
 schedule function siscu:world/kill_dead 1t

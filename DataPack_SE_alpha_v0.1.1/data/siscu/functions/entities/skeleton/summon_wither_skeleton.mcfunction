@@ -12,7 +12,9 @@ item replace entity @e[tag=converted,limit=1,sort=nearest] armor.feet from entit
 data modify entity @e[tag=converted,limit=1,sort=nearest] LeftHanded set from entity @s LeftHanded
 data modify entity @e[tag=converted,limit=1,sort=nearest] ArmorDropChances set from entity @s ArmorDropChances
 data modify entity @e[tag=converted,limit=1,sort=nearest] HandDropChances set from entity @s HandDropChances
+data modify entity @e[tag=converted,limit=1,sort=nearest] DeathLootTable set from entity @s DeathLootTable
 
+data modify entity @e[tag=converted,limit=1,sort=nearest] Tags append from entity @s Tags[]
 data modify entity @e[tag=converted,limit=1,sort=nearest] CustomName set from entity @s CustomName
 data modify entity @e[tag=converted,limit=1,sort=nearest] PersistenceRequired set from entity @s PersistenceRequired
 data modify entity @e[tag=converted,limit=1,sort=nearest] CanPickUpLoot set from entity @s CanPickUpLoot
@@ -23,4 +25,5 @@ data modify entity @e[tag=converted,limit=1,sort=nearest] FallDistance set from 
 playsound minecraft:entity.skeleton.converted_to_stray hostile @a ~ ~ ~
 particle minecraft:smoke ~ ~1.3 ~ 0 0.3 0 0.06 30
 tag @e[tag=converted] remove converted
-tp @s[type=!player] ~ ~-100000 ~
+tp @s[type=!player] ~ ~-200 ~
+kill @e[predicate=siscu:locations/check_void]
