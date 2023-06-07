@@ -4,9 +4,6 @@
     "#minecraft:banners",
     "#minecraft:beds",
     "#minecraft:boats",
-    "#minecraft:carpets",
-    "#minecraft:flowers",
-    "#minecraft:leaves",
     "#minecraft:logs_that_burn",
     "#minecraft:wooden_buttons",
     "#minecraft:wooden_doors",
@@ -17,13 +14,8 @@
     "#minecraft:wooden_trapdoors",
     "#minecraft:wool",
     "minecraft:bone",
-    "minecraft:jigsaw",
+	"minecraft:book",
     "minecraft:written_book",
-    "minecraft:writable_book",
-    "minecraft:wooden_axe",
-    "minecraft:wooden_hoe",
-    "minecraft:wooden_pickaxe",
-    "minecraft:wooden_shovel",
-    "minecraft:wooden_sword"
+    "minecraft:writable_book"
   ]
 }

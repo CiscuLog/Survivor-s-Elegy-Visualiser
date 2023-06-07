@@ -5,6 +5,8 @@ execute as @e[type=#siscu:drownable] unless predicate siscu:entities/check_drown
 ## Oxidation ##
 execute as @a run function siscu:items/passive_behav/oxidisation_chance
 
+## Desert Wells ##
+execute if entity @e[type=marker,tag=siscu.well_unused] run function siscu:world/desert_well/reward_schedule
 
 kill @e[predicate=siscu:locations/check_void]
 

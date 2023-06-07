@@ -11,7 +11,7 @@
 				"function": "minecraft:exploration_map",
 				"destination": "ancient_city",
 				"decoration": "banner_black",
-				"skip_existing_chunks": true,
+				"skip_existing_chunks": false,
 				"zoom": 3,
 				"search_radius": 50
 			},
