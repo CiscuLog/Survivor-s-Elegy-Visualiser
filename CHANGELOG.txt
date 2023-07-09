@@ -1,5 +1,14 @@
 
-Compatible Minecraft versions: 1.19.4
+Compatible Minecraft versions: 1.20
+
+Survivor's Elegy Alpha v0.7.0 (09/06/2023)
++ Updated to 1.20
++ Added Bundle crafting recipe
++ Added Jungle Ruins
++ Changed Wax Horse Armor, all newly crafted items will now use leather horse armor as a basis
++ Updated Smithing Table Recipes
++ Updated Smithing Table Recipe Icons
++ Updated Witch Hut pillar generation
 
 Survivor's Elegy Alpha v0.6.3 (20/05/2023)
 + Added Chainmail Horse Armor
